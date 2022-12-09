@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.questions {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.question-box {
+  max-width: 500px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.question-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.answer-choice {
+  font-size: 16px;
+}
+
+.answer-choices {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 100%;
+  font-family: inherit;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.continue-button {
+  width: 100%;
+  font-family: inherit;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.question {
+  margin-top: 100px;
+}
+
+.final-score-screen {
+  height: 400px;
+  width: 400px;
+  margin-inline: auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 400px;
+  font-size: 30px;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: bgrey;
+  color: darkslategrey;
+}
+
+.welcome-screen {
+  width: 400px;
+  margin-inline: auto;
+  margin-top: 100;
+  margin-top: 99px;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+}
+.instruction {
+  text-align: center;
+  font-size: 18px;
+  color: #656565;
+  margin-bottom: 30px;
+}
+
+.dropdown {
+  text-align: center;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.number-questions {
+  height: 35px;
+  border-radius: 10px;
+  font-weight: 900;
+  display: inline-block;
+  border-width: 1px;
+  text-align: center;
+}
+
+.selectors {
+  display: inline-block;
+  text-align: center;
+  margin-inline: auto;
+  margin-left: 81px;
+  margin-right: auto;
+}
+
+.start-button {
+  margin-top: 40px;
+  width: 100%;
+  font-family: inherit;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.wrong-answer {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.correct-answer {
+  color: green;
+  margin-bottom: 20px;
+}
